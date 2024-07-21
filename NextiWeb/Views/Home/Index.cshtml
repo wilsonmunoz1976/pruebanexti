@@ -1,0 +1,23 @@
+﻿@model Eventos
+
+@{
+    ViewData["Title"] = "Página Principal";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Mantenimiento de Eventos</p>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        @{
+            await Html.RenderPartialAsync("~/Views/Shared/_msj_success_warning.cshtml");
+        }
+        <div class="col-12" id="div_body">
+            @{
+                await Html.RenderPartialAsync("~/Views/Home/listar_eventos.cshtml");
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿@model Evento
+@{
+	Layout = null;
+}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$('#txtPrecio').on('input', function () {
+			this.value = this.value.replace(/[^0-9]/g, '');
+		});
+	});
+
+	$(document).ready(function () {
+		$("#txtFecha").datepicker({
+			showAnim: "slideDown",
+			dateFormat: "yy-mm-dd",
+			minDate: new Date(),
+			changeMonth: true,
+			changeYear: true
+		});
+	});
+</script>
+<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Ingresar nuevo Evento</h3>
+	</div>
+	<div class="card-body">
+		<div class="mb-2">
+			<label class="form-label" for="txtFecha" >Fecha Evento</label>
+			<input type="text" class="form-control form-control-sm" id="txtFecha" asp-for="datoEvento.fx_fecha" />
+		</div>
+		<div class="mb-2">
+			<label class="form-label">Lugar del Evento</label>
+			<input type="text" class="form-control form-control-sm" id="txtLugar" asp-for="datoEvento.tx_lugar" />
+		</div>
+		<div class="mb-2">
+			<label class="form-label">Descripción del Evento</label>
+			<input type="text" class="form-control form-control-sm" id="txtDescripcion" asp-for="datoEvento.tx_descripcion" />
+		</div>
+		<div class="mb-2">
+			<label class="form-label">Precio</label>
+			<input type="text" class="form-control form-control-sm" id="txtPrecio" asp-for="datoEvento.va_precio" />
+		</div>
+	</div>
+	<div class="card-footer">
+		<button id="btn_regresar" class="btn btn-default btn-sm btn-block"
+			    data-url='@Url.Action("Index", "Home")'>
+			<i class="fa fa-plus">Regresar</i>
+		</button>
+		<button id="btn_guardar" class="btn btn-success btn-block"
+				data-url='@Url.Action("InsertarEvento", "Home")'>
+			<i class="fa fa-save">Guardar</i>
+		</button>
+	</div>
+</div>
+
+@{
+	await Html.RenderPartialAsync("~/Views/Home/_script_eventos.cshtml");
+}
+

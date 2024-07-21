@@ -1,0 +1,13 @@
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\bin\Release\net6.0\NextiClassLibrary.deps.json
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\bin\Release\net6.0\NextiClassLibrary.dll
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\bin\Release\net6.0\NextiClassLibrary.pdb
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.csproj.AssemblyReference.cache
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.AssemblyInfoInputs.cache
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.AssemblyInfo.cs
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.sourcelink.json
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.dll
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\refint\NextiClassLibrary.dll
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\NextiClassLibrary.pdb
+C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiClassLibrary\obj\Release\net6.0\ref\NextiClassLibrary.dll

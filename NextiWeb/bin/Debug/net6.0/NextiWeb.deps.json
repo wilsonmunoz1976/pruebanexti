@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NextiWeb/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "datatables.net-bs": "2.1.0",
+          "jQuery": "3.7.1"
+        },
+        "runtime": {
+          "NextiWeb.dll": {}
+        }
+      },
+      "bootstrap/3.0.0": {
+        "dependencies": {
+          "jQuery": "3.7.1"
+        }
+      },
+      "datatables.net/1.12.1": {
+        "dependencies": {
+          "jQuery": "3.7.1"
+        }
+      },
+      "datatables.net-bs/2.1.0": {
+        "dependencies": {
+          "bootstrap": "3.0.0",
+          "datatables.net": "1.12.1"
+        }
+      },
+      "jQuery/3.7.1": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NextiWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bootstrap/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d1JUd1ZjfbhGGTxjBSjCLIV+O//hZDcvI0hnaeTL3VHAD+6Z89vgPwV0K/nmPM4hZKq172iPV55lCSpohT6WmA==",
+      "path": "bootstrap/3.0.0",
+      "hashPath": "bootstrap.3.0.0.nupkg.sha512"
+    },
+    "datatables.net/1.12.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ArWbq7HCVj6uciLXUoFlW1ZvfYNbCPxFnniAjD4NKb/iAsTYWGZYRjdH3Ir8+0N8rR6muPTF5nZ4Mqf1nUn9A==",
+      "path": "datatables.net/1.12.1",
+      "hashPath": "datatables.net.1.12.1.nupkg.sha512"
+    },
+    "datatables.net-bs/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kCEZbv+b0r23jfijmorNI8+Q69wylZuM+iAIZOeuxCK7oxu4wHNRc4JJTRO4Kvg+GDNUS0MwpP7ZOca2yMtAuw==",
+      "path": "datatables.net-bs/2.1.0",
+      "hashPath": "datatables.net-bs.2.1.0.nupkg.sha512"
+    },
+    "jQuery/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rF8hnQxmBMlIspf8VN72bALtmIpKx6hKRpUdTOkp/8JzfF8KgNqHut5lOy9kFGvFIStumCqJ+PBxpI9gxpRYfQ==",
+      "path": "jquery/3.7.1",
+      "hashPath": "jquery.3.7.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    }
+  }
+}

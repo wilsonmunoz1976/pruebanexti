@@ -1,0 +1,6 @@
+@NextiAPI_HostAddress = http://localhost:5104
+
+GET {{NextiAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

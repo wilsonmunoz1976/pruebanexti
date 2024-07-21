@@ -7,3 +7,7 @@
 /.vs/pruebanexti/v17
 /Database/bin/Debug
 /Database/obj/Debug
+/Database/Database.dbmdl
+/Database/Database.jfm
+/Database/Database.sqlproj
+/Database/Database.sqlproj.user
