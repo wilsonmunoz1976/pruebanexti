@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ProjectEvaluation
+/.vs/pruebanexti/FileContentIndex
+/.vs/pruebanexti/v17
+/Database/bin/Debug
+/Database/obj/Debug
