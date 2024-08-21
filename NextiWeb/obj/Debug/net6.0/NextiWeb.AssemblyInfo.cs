@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextiWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+006ed91458fedb31aa89237070a68746e29446a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e609c3953346ac4e7dc0485233cb09bd3b1082b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextiWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NextiWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
