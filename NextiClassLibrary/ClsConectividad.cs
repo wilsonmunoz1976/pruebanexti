@@ -47,7 +47,7 @@ namespace NextiClassLibrary
                         retEventos.Add(new DatoEvento()
                         {
                             ci_id = Convert.ToInt32(dr["ci_id"]),
-                            fx_fecha = Convert.ToDateTime(dr["fx_fecha"]),
+                            fx_fecha = Convert.ToDateTime(dr["fx_fecha"]).ToString("yyyy-MM-dd"),
                             tx_lugar = Convert.ToString(dr["tx_lugar"]),
                             tx_descripcion = Convert.ToString(dr["tx_descripcion"]),
                             va_precio = Convert.ToDecimal(dr["va_precio"]),
@@ -91,7 +91,7 @@ namespace NextiClassLibrary
                     retEventos = new DatoEvento()
                     {
                         ci_id = Convert.ToInt32(dr["ci_id"]),
-                        fx_fecha = Convert.ToDateTime(dr["fx_fecha"]),
+                        fx_fecha = Convert.ToDateTime(dr["fx_fecha"]).ToString("yyyy-MM-dd"),
                         tx_lugar = Convert.ToString(dr["tx_lugar"]),
                         tx_descripcion = Convert.ToString(dr["tx_descripcion"]),
                         va_precio = Convert.ToDecimal(dr["va_precio"]),

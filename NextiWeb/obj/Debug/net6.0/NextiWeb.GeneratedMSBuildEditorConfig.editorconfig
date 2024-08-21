@@ -9,59 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NextiWeb
 build_property.RootNamespace = NextiWeb
-build_property.ProjectDir = C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiWeb\
+build_property.ProjectDir = C:\Users\desarrollo3\Source\Repos\pruebanexti\NextiWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC1\source\repos\wilsonmunoz1976\pruebanexti\NextiWeb
+build_property.MSBuildProjectDirectory = C:\Users\desarrollo3\Source\Repos\pruebanexti\NextiWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/ActualizarEvento.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/ActualizarEvento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY3R1YWxpemFyRXZlbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/Index.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/InsertarEvento.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/InsertarEvento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnRhckV2ZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/listar_eventos.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/ListarEventos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0YXJFdmVudG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/listar_eventos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsaXN0YXJfZXZlbnRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/Privacy.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Home/_script_eventos.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Home/_script_eventos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfc2NyaXB0X2V2ZW50b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Shared/Error.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Shared/_msj_success_warning.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Shared/_msj_success_warning.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tc2pfc3VjY2Vzc193YXJuaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/_ViewImports.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/_ViewStart.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC1/source/repos/wilsonmunoz1976/pruebanexti/NextiWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/desarrollo3/Source/Repos/pruebanexti/NextiWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ah08357q27

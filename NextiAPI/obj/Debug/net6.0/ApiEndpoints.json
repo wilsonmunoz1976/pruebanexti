@@ -1,0 +1,132 @@
+[
+  {
+    "ContainingType": "NextiAPI.Controllers.MantenimientoEventoController",
+    "Method": "ConsultarEvento",
+    "RelativePath": "api/MantenimientoEvento/ConsultarEvento/{id_evento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_evento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NextiClassLibrary.Entidades.Evento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NextiAPI.Controllers.MantenimientoEventoController",
+    "Method": "EliminarEvento",
+    "RelativePath": "api/MantenimientoEvento/EliminarEvento/{id_evento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_evento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NextiClassLibrary.Entidades.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NextiAPI.Controllers.MantenimientoEventoController",
+    "Method": "InsertarEvento",
+    "RelativePath": "api/MantenimientoEvento/InsertarEvento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "datoEvento",
+        "Type": "NextiClassLibrary.Entidades.DatoEvento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NextiClassLibrary.Entidades.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NextiAPI.Controllers.MantenimientoEventoController",
+    "Method": "ListarEventos",
+    "RelativePath": "api/MantenimientoEvento/ListarEventos/{id_evento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_evento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NextiClassLibrary.Entidades.Eventos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NextiAPI.Controllers.MantenimientoEventoController",
+    "Method": "ModificarEvento",
+    "RelativePath": "api/MantenimientoEvento/ModificarEvento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "datoEvento",
+        "Type": "NextiClassLibrary.Entidades.DatoEvento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NextiClassLibrary.Entidades.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

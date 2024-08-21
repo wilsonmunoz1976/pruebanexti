@@ -3,7 +3,7 @@
     public class DatoEvento
     {
         public int ci_id { get; set; }
-        public DateTime? fx_fecha { get; set; }
+        public string? fx_fecha { get; set; }
         public string? tx_lugar { get; set; }
         public string? tx_descripcion { get; set; }
         public decimal? va_precio { get; set; }

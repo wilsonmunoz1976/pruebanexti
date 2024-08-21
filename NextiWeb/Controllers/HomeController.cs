@@ -23,6 +23,11 @@ namespace NextiWeb.Controllers
             return View(modEventos);
         }
 
+		public async Task<IActionResult> ListarEventos()
+		{
+			Eventos modEventos = await _apiService.ListarEventos(0);
+			return View("ListarEventos", modEventos);
+		}
 		public async Task<IActionResult> NuevoEvento()
 		{
 			return View("InsertarEvento");

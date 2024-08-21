@@ -1,4 +1,5 @@
-﻿@model Evento
+﻿@Html.AntiForgeryToken()
+@model Evento
 @{
 	Layout = null;
 }
@@ -7,26 +8,8 @@
 	<head> 
 		<meta name="viewport" content="width=device=width" />
 		<title>Actualizar Evento</title>
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-	<script>
-		$(document).ready(function () {
-			$('#txtPrecio').on('input', function () {
-				this.value = this.value.replace(/[^0-9]/g, '');
-			});
-		});
 
-		$(document).ready(function () {
-			$("#txtFecha").datepicker({
-				showAnim: "slideDown",
-				dateFormat: "yy-mm-dd",
-				minDate: new Date(),
-				changeMonth: true,
-				changeYear: true
-			});
-		});
-	</script>
 
 	</head>
 	<body>
@@ -53,8 +36,8 @@
 			</div>
 		</div>
 		<div class="card-footer">
-			<button id="btn_regresar" class="btn btn-default btn-sm btn-block" 
-				    data-url='@Url.Action("Index", "Home")' >
+			<button id="btn_regresar" class="btn btn-default btn-sm btn-block"
+				data-url='@Url.Action("ListarEventos", "Home")'>
 				<i class="fa fa-save">Regresar</i>
 			</button>
 			<button id="btn_actualizar" class="btn btn-default btn-sm btn-block"
@@ -65,6 +48,23 @@
 	</div>
 	</body>
 </html>
-@{
-	await Html.RenderPartialAsync("~/Views/Home/_script_eventos.cshtml");
-}
+
+<script src="~/js/ScriptEventos.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$('#txtPrecio').on('input', function () {
+			this.value = this.value.replace(/[^0-9]/g, '');
+		});
+	});
+
+	$(document).ready(function () {
+		$("#txtFecha").datepicker({
+			showAnim: "slideDown",
+			dateFormat: "yy-mm-dd",
+			minDate: new Date(),
+			changeMonth: true,
+			changeYear: true
+		});
+	});
+</script>

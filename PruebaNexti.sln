@@ -5,11 +5,15 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextiWeb", "NextiWeb\NextiWeb.csproj", "{1B3628EC-D65A-4251-B758-DDA24AC616DD}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextiClassLibrary", "NextiClassLibrary\NextiClassLibrary.csproj", "{D0B9BCA6-E040-4AEE-9477-8D66F130F4D0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextiAPI", "NextiAPI\NextiAPI.csproj", "{1F73F061-DADC-44F5-B61A-AD791C91C71A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{A79051DB-D090-4DF0-A6AB-288BC892D20D}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Crear Tabla evento.sql = Database\Crear Tabla evento.sql
+		Database\Store Procedure dbo.pr_evento.sql = Database\Store Procedure dbo.pr_evento.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +25,6 @@ Global
 		{1B3628EC-D65A-4251-B758-DDA24AC616DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B3628EC-D65A-4251-B758-DDA24AC616DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3628EC-D65A-4251-B758-DDA24AC616DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79FF6FDA-1DCB-4BF0-B138-1B959320F61D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{D0B9BCA6-E040-4AEE-9477-8D66F130F4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0B9BCA6-E040-4AEE-9477-8D66F130F4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B9BCA6-E040-4AEE-9477-8D66F130F4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU

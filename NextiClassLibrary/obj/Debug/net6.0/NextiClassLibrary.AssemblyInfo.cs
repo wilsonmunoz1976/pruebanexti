@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextiClassLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3666963a31a1ce178b9471e12aef30c86e34b9aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+006ed91458fedb31aa89237070a68746e29446a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextiClassLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NextiClassLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
