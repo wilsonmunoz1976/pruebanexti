@@ -1,5 +1,5 @@
-USE PruebaNEXTI
-GO
+--USE PruebaNEXTI
+--GO
 
 /****** Object:  Table dbo.evento    Script Date: 20/7/2024 10:50:26 ******/
 SET ANSI_NULLS ON
